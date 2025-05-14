@@ -137,7 +137,7 @@ def c(e, k):
 def c_tilde(e, k):
     return k * (e**(1+gamma))/(1+gamma)
 
-# Derivate and inverse of composite-cost-functio - used in Equation (10)
+# Derivate and inverse of composite-cost-function - used in Equation (10)
 def c_tilde_dif_inverse(x, k):
     return (x / k) ** (1/gamma)
 
